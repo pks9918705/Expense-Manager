@@ -19,7 +19,6 @@ const ExpenseInfo = ({ expenses }) => {
       <div className={styles.balance}>
         <h4>YOUR BALANCE</h4>
         <h1>${grandTotal.toFixed(2)}</h1>
-        {/* .toFixed() method is used to format a number to a fixed number of decimal places. */}
       </div>
       <div className={styles.incomeExpenseContainer}>
         <div>
